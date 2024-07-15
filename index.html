@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bankist | When Banking meets Minimalist</title>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="img/logo4.png"
+          style="height: 180px; width: 240px"
+          alt="Bankist logo"
+          class="nav__logo"
+          id="logo"
+          designer="Saif"
+          data-version-number="3.0"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Explore</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Destinations</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Reviews</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Book Now</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <h1>
+          Discover
+          <span class="highlight">Morocco</span>
+          <br />
+          <span class="highlight">with us</span>
+        </h1>
+        <h4>Your gateway to Moroccan adventures.</h4>
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+        <img src="img/hero2.png" class="header__img" alt="Moroccan adventure" />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Explore</h2>
+        <h3 class="section__header">
+          Everything you need for your Moroccan adventure.
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/mosque-lazy.jpg"
+          data-src="img/mosque.jpg"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Guided Tours</h5>
+          <p>
+            Discover the best of Morocco with our expert-guided tours to iconic
+            landmarks and hidden gems.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Adventure Activities</h5>
+          <p>
+            Embark on thrilling adventures such as hiking the Atlas Mountains or
+            exploring Sahara desert camps.
+          </p>
+        </div>
+        <img
+          src="img/desert-lazy.jpg"
+          data-src="img/desert.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/morracanFood-lazy.jpg"
+          data-src="img/morracanFood.jpg"
+          alt="morracanFood"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Local Cuisine</h5>
+          <p>
+            Enjoy authentic Moroccan cuisine from local markets and traditional
+            restaurants.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Experiences</h2>
+        <h3 class="section__header">
+          Everything as thrilling as possible, but no simpler.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Guided Tours
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Adventure Activities
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>Local Cuisine
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Explore Morocco with expert-guided tours, hassle-free!
+          </h5>
+          <p>
+            Discover the wonders of Morocco with our knowledgeable guides and
+            curated tours to iconic destinations.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Experience thrilling adventures in Morocco.
+          </h5>
+          <p>
+            Embark on thrilling activities like hiking in the Atlas Mountains or
+            camel trekking in the Sahara desert.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Delight your taste buds with authentic Moroccan cuisine.
+          </h5>
+          <p>
+            Indulge in the flavors of Morocco with traditional dishes from local
+            markets and restaurants.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Not sure yet?</h2>
+        <h3 class="section__header">
+          Hear from travelers who have experienced the best of Morocco.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Best travel decision ever!</h5>
+            <blockquote class="testimonial__text">
+              Morocco is a mesmerizing destination with its diverse landscapes,
+              rich culture, and warm hospitality. My journey here has been
+              unforgettable!
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Aarav Lynn</h6>
+              <p class="testimonial__location">San Francisco, USA</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              The highlight of my travel experiences
+            </h5>
+            <blockquote class="testimonial__text">
+              Exploring Morocco's ancient cities and vibrant markets has been
+              nothing short of magical. I highly recommend it to every traveler!
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Miyah Miles</h6>
+              <p class="testimonial__location">London, UK</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Morocco - where history meets adventure
+            </h5>
+            <blockquote class="testimonial__text">
+              From hiking in the Atlas Mountains to experiencing the Sahara
+              desert, Morocco has exceeded my expectations. It's a must-visit
+              destination!
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Francisco Gomes</h6>
+              <p class="testimonial__location">Lisbon, Portugal</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          The best day to start exploring Morocco was yesterday. The second best
+          is today!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Plan your adventure now!</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">Explore</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Destinations</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Travel Tips</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Packages</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">About Us</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact</a>
+        </li>
+      </ul>
+      <img
+        src="img/footerlogo.png"
+        style="width: 200px; height: 150px"
+        alt="Logo"
+        class="footer__logo"
+      />
+      <p class="footer__copyright">
+        &copy; Copyright by
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://twitter.com/Saifschmedtman"
+          >SIF-EDDINE EL HARCHAOUI</a
+        >.
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Plan your dream vacation <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" placeholder="Enter your first name" />
+        <label>Last Name</label>
+        <input type="text" placeholder="Enter your last name" />
+        <label>Email Address</label>
+        <input type="email" placeholder="Enter your email address" />
+        <button type="submit" class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+
+    <div class="overlay hidden"></div>
+
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
